@@ -7,21 +7,28 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Book',
+            name="Book",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=500, verbose_name='Name')),
-                ('isbn', models.CharField(max_length=500, verbose_name='ISBN')),
-                ('author_names', models.TextField(verbose_name='Author names')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=500, verbose_name="Name")),
+                ("isbn", models.CharField(max_length=500, verbose_name="ISBN")),
+                ("author_names", models.TextField(verbose_name="Author names")),
             ],
             options={
-                'verbose_name': 'Book',
-                'verbose_name_plural': 'Books',
+                "verbose_name": "Book",
+                "verbose_name_plural": "Books",
             },
         ),
     ]

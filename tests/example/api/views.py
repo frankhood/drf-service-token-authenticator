@@ -1,14 +1,14 @@
-from rest_framework.viewsets import mixins, generics
-from tests.example.api.serializers import BookListSerializer
-
-from tests.example.models import Book
-from service_token_authenticator.authentication import ServiceTokenAuthentication
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.viewsets import generics
 
+from service_token_authenticator import authentication
+from tests.example.api.serializers import BookListSerializer
+from tests.example.models import Book
 from tests.example.permissions import IsFirstServicePermission
 
+
 class BookAPIView(generics.ListAPIView):
-    authentication_classes = (ServiceTokenAuthentication,)
+    authentication_classes = (authentication.ServiceTokenAuthentication,)
     permission_classes = (
         IsAuthenticated,
         IsFirstServicePermission,

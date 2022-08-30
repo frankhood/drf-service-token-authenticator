@@ -4,7 +4,6 @@ from tests.example.models import Book
 
 
 class BookListSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Book
         fields = (
