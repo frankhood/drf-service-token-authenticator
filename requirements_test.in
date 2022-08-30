@@ -1,0 +1,11 @@
+-r requirements_dev.in
+
+coverage
+mock
+flake8
+tox
+codecov
+
+freezegun
+faker
+factory_boy
