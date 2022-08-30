@@ -32,7 +32,7 @@ django==3.2.15
     # via
     #   -r requirements_dev.in
     #   djangorestframework
-djangorestframework==3.13.1
+djangorestframework==3.13.0
     # via -r requirements_dev.in
 docutils==0.19
     # via readme-renderer
