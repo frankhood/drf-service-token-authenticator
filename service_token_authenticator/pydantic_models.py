@@ -1,6 +1,6 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 
 class ExternalServiceUser(BaseModel):
     username: str
-    is_authenticated: bool = Field(default=False)
+    is_authenticated: bool = False
