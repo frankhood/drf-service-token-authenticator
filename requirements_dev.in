@@ -1,5 +1,4 @@
 invoke
-twine
 wheel
 zest.releaser
 bumpversion
@@ -9,6 +8,6 @@ tox
 pip-tools~=5.5.0
 
 
-Django<4
-djangorestframework<=3.13.0
-pydantic<=1.9.2
+Django>=3.2
+djangorestframework
+pydantic

@@ -49,14 +49,8 @@ identify==2.5.3
     # via pre-commit
 idna==3.3
     # via requests
-importlib-metadata==4.12.0
-    # via
-    #   keyring
-    #   twine
 invoke==1.7.1
     # via -r requirements_dev.in
-keyring==23.8.2
-    # via twine
 mccabe==0.7.0
     # via flake8
 mock==4.0.3
@@ -67,8 +61,6 @@ packaging==21.3
     # via tox
 pip-tools==5.5.0
     # via -r requirements_dev.in
-pkginfo==1.8.3
-    # via twine
 platformdirs==2.5.2
     # via virtualenv
 pluggy==1.0.0
@@ -93,20 +85,11 @@ python-dateutil==2.8.2
     #   freezegun
 pyyaml==6.0
     # via pre-commit
-readme-renderer==37.0
-    # via twine
-requests-toolbelt==0.9.1
-    # via twine
 requests==2.28.1
     # via
     #   codecov
     #   requests-toolbelt
-    #   twine
     #   zest.releaser
-rfc3986==2.0.0
-    # via twine
-rich==12.5.1
-    # via twine
 six==1.16.0
     # via
     #   bleach
@@ -121,17 +104,9 @@ tox==3.25.1
     # via
     #   -r requirements_dev.in
     #   -r requirements_test.in
-twine==4.0.1
-    # via
-    #   -r requirements_dev.in
-    #   zest.releaser
-typing-extensions==4.3.0
-    # via
-    #   rich
 urllib3==1.26.12
     # via
     #   requests
-    #   twine
 virtualenv==20.16.3
     # via
     #   pre-commit
