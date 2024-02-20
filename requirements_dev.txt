@@ -32,8 +32,6 @@ django==3.2.15
     # via
     #   -r requirements_dev.in
     #   djangorestframework
-djangorestframework==3.13.0
-    # via -r requirements_dev.in
 docutils==0.19
     # via readme-renderer
 filelock==3.8.0
@@ -68,8 +66,6 @@ pre-commit==2.20.0
     # via -r requirements_dev.in
 py==1.11.0
     # via tox
-pydantic==1.9.2
-    # via -r requirements_dev.in
 pygments==2.13.0
     # via
     #   readme-renderer
