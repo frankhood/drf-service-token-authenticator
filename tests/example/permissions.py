@@ -1,5 +1,4 @@
 from typing import List
-
 from django.conf import settings
 
 from service_token_authenticator import permission_mixins
