@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # complexity documentation build configuration file, created by
 # sphinx-quickstart on Tue Jul  9 22:26:36 2013.
@@ -47,8 +46,8 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"DRF Service Token Authenticator"
-copyright = u"2022, FrankHood Business Solutions srl"
+project = "DRF Service Token Authenticator"
+copyright = "2022, FrankHood Business Solutions srl"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -194,8 +193,8 @@ latex_documents = [
     (
         "index",
         "drf-service-token-authenticator.tex",
-        u"DRF Service Token Authenticator Documentation",
-        u"FrankHood Business Solutions srl",
+        "DRF Service Token Authenticator Documentation",
+        "FrankHood Business Solutions srl",
         "manual",
     ),
 ]
@@ -229,8 +228,8 @@ man_pages = [
     (
         "index",
         "drf-service-token-authenticator",
-        u"DRF Service Token Authenticator Documentation",
-        [u"FrankHood Business Solutions srl"],
+        "DRF Service Token Authenticator Documentation",
+        ["FrankHood Business Solutions srl"],
         1,
     )
 ]
@@ -248,8 +247,8 @@ texinfo_documents = [
     (
         "index",
         "drf-service-token-authenticator",
-        u"DRF Service Token Authenticator Documentation",
-        u"FrankHood Business Solutions srl",
+        "DRF Service Token Authenticator Documentation",
+        "FrankHood Business Solutions srl",
         "drf-service-token-authenticator",
         "One line description of project.",
         "Miscellaneous",
